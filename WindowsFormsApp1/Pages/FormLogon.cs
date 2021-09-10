@@ -12,6 +12,8 @@ namespace WindowsFormsApp1.Pages
 {
     public partial class FormLogon : Form
     {
+        Boolean Active = true;
+        Boolean Active1 = true;
         public FormLogon()
         {
             InitializeComponent();
@@ -24,7 +26,11 @@ namespace WindowsFormsApp1.Pages
 
         private void textBox1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
+            if (Active1)
+            {
+                textBox1.Clear();
+                Active1 = false;
+            }
             panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(255)))), ((int)(((byte)(88)))));
             iconPictureBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(255)))), ((int)(((byte)(88)))));
             textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(255)))), ((int)(((byte)(88)))));
@@ -36,7 +42,11 @@ namespace WindowsFormsApp1.Pages
 
         private void textBox2_Click(object sender, EventArgs e)
         {
-            textBox2.Clear();
+            if (Active)
+            {
+                textBox2.Clear();
+                Active = false;
+            }
             textBox2.PasswordChar = '*';
             panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(255)))), ((int)(((byte)(88)))));
             iconPictureBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(255)))), ((int)(((byte)(88)))));
@@ -50,6 +60,13 @@ namespace WindowsFormsApp1.Pages
         private void button1_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            SignUp newFormSignUp = new SignUp();
+            newFormSignUp.Show();
+            this.Hide();
         }
     }
 }

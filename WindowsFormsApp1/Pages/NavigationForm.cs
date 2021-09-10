@@ -70,5 +70,14 @@ namespace WindowsFormsApp1.Pages
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private Button currentButton;
+ 
+
+        private Color SelectThemeColor()
+        {
+            string color = "#ffffff";
+            return ColorTranslator.FromHtml(color);
+        }
     }
 }

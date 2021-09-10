@@ -11,4 +11,5 @@ Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.NavigationFo
 Z:\C#DOCS\Winform\WindowsFormsApp1\bin\Debug\FontAwesome.Sharp.dll
 Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
-Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.FormLogin.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.FormLogon.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.SignUp.resources
