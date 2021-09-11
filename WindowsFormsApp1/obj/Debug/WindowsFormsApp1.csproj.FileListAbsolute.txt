@@ -13,3 +13,7 @@ Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplet
 Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
 Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.FormLogon.resources
 Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Pages.SignUp.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Components.Page1.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Components.Page2.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Components.Product.resources
+Z:\C#DOCS\Winform\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Components.Dashboard.resources
